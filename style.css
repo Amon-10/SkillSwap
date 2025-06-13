@@ -10,7 +10,8 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-style: normal;
-  color:rgb(63, 63, 56)
+  color:rgb(63, 63, 56);
+  background-color: rgb(218, 228, 226)
 }
 
 header {
@@ -69,7 +70,6 @@ img {
 .hero_section {
     padding-top: 100px;
     padding-right: 50px;
-    position: relative;
 }
 
 .right {
@@ -92,7 +92,6 @@ img {
 .hero-text p {
     font-size: 1.3rem;
     line-height: 1.5;
-    max-width: 90%;
 }
 
 .join-now-button {
@@ -112,17 +111,57 @@ img {
 }
 
 .features-section {
-    padding: 25rem;
+    padding-top: 25rem;
     position:relative;
 }
 
 .how-to-header {
+    display: block;
     font-size: 2.5rem;
     font-weight: 500;
     padding-bottom: 15px;
     text-align: center;
+    
 }
 
 .flex-container {
-    
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1 {
+    border: 1px solid aliceblue;
+    padding: 2rem 8rem 16rem 8rem;
+    background-color: aliceblue;
+    border-radius: 1.5rem;
+    margin-top: 2rem;
+}
+
+/* .box2 {
+    border: 1px solid aliceblue;
+    padding: 2rem 8rem 16rem 8rem;
+    background-color: aliceblue;
+    border-radius: 1.5rem;
+    margin-top: 2rem;
+}
+
+.box3 {
+    border: 1px solid aliceblue;
+    padding: 2rem 8rem 16rem 8rem;
+    background-color: aliceblue;
+    border-radius: 1.5rem;
+    margin-top: 2rem;
+} */
+
+.examples-section {
+    padding-top: 10rem;
+    position: relative;
+}
+
+.examples-header {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-bottom: 15px;
+    text-align: center;
 }
