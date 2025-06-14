@@ -167,3 +167,8 @@ footer {
     text-decoration: underline;
     text-underline-offset: 10px;
 }
+
+.text {
+    display: block;
+    padding: 0.5rem;
+}
