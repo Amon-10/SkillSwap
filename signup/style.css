@@ -9,7 +9,7 @@ body header {
 
 .new-link {
     text-decoration: none;
-    color: rgb(15, 18, 19);
+    color:rgb(63, 63, 56);
 }
 
 .new-link:hover, .new-link:focus {
@@ -18,6 +18,11 @@ body header {
     text-underline-offset: 10px;
 }
 
-/* main {
+main {
+    height: 800px;
     background-color: rgb(218, 228, 226);
+}
+
+/* .container {
+    padding-top: 50px
 } */
