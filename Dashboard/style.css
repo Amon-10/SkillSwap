@@ -29,15 +29,26 @@ body {
   background-color: rgb(218, 228, 226);
 }
 
+.flex {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .stats{
-  margin-top: 50px;
+  padding-top: 50px;
+  margin-left: 120px;
 }
 
 .card-container{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 20px;
+}
+
+.column {
+  flex-direction: column;
 }
 
 .card {
@@ -77,4 +88,12 @@ body {
   border-radius: 4px;
   margin-top: 16px;
   color: #fff;
+}
+
+.row1 {
+  margin-left: 120px;
+}
+
+.row2 {
+  margin-right: 120px;
 }

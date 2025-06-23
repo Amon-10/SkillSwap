@@ -26,59 +26,95 @@
         <!-- Welcome message -->
         <h1>Welcome (User's First Name)</h1>
         <hr>
-        <div class="stats">
-            <h2>Stats Summary</h2>
-        </div>
         <!-- stat summary -->
-        <div class="card-container">
-            <div class="card">
-                <img src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg">
-                <div class="card-content">
-                    <h3>Card 1</h3>
-                    <p>Sessions Requested: [number]</p>
+        <div class="container">
+            <div class="row">
+                <div class="stats">
+                    <h2>Stats Summary</h2>
                 </div>
             </div>
-            <div class="card">
-                <img src="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg">
-                <div class="card-content">
-                    <h3>Card 2</h3>
-                    <p>Sessions Offered: [number]</p>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg">
+                    <div class="card-content">
+                        <h3>Card 1</h3>
+                        <p>Sessions Requested: [number]</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg">
+                    <div class="card-content">
+                        <h3>Card 2</h3>
+                        <p>Sessions Offered: [number]</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-taj-mahal.jpg">
+                    <div class="card-content">
+                        <h3>Card 3</h3>
+                        <p>Pending Requests: [number]</p>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-taj-mahal.jpg">
-                <div class="card-content">
-                    <h3>Card 3</h3>
-                    <p>Pending Requests: [number]</p>
+        
+            <!-- Upcoming session -->
+            <div class="flex">
+                <div class="row1">
+                    <div class="session-title">
+                        <h2>Upcoming Sessions</h2>
+                    </div>
+                
+                    <div class="card-container column">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Python with James</h5>
+                                <p class="card-text">June 25 @ 3:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Python with James</h5>
+                                <p class="card-text">June 25 @ 3:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Python with James</h5>
+                                <p class="card-text">June 25 @ 3:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <!-- Upcomming session -->
-         <div class="session">
-            <h2>Upcoming Sessions</h2>
-         </div>
-
-         <div class="card-container">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Python with James</h5>
-                    <p class="card-text">June 25 @ 3:00 PM</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Python with James</h5>
-                    <p class="card-text">June 25 @ 3:00 PM</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Python with James</h5>
-                    <p class="card-text">June 25 @ 3:00 PM</p>
-                </div>
-            </div>
-         </div>
          
+            <!-- Quick Actions -->
+                <div class="row2">
+                    <div class="quick-action">
+                        <h2>Quick Actions</h2>
+                    </div>
+                    <div class="card-container column">
+                        <div class="col-12 col-md-3 mb-3">
+                            <a href="/edit-profile" class="btn btn-outline-primary w-100">
+                                ✏️ Edit Profile
+                            </a>
+                        </div>
+
+                        <div class="col-12 col-md-3 mb-3">
+                            <a href="/browse" class="btn btn-outline-success w-100">
+                                🔍 Browse Users
+                            </a>
+                        </div>
+
+                        <div class="col-12 col-md-3 mb-3">
+                            <a href="/request-session" class="btn btn-outline-secondary w-100">
+                                📅 Request Session
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+
+
      </main>
 </body>
 </html>
