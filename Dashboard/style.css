@@ -33,6 +33,7 @@ body {
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .stats{
@@ -96,4 +97,18 @@ body {
 
 .row2 {
   margin-right: 120px;
+  margin-left:120px;
 }
+
+.card-container button{
+  font-size: 26px;
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px 120px 10px 120px;
+  border: 1px solid rgb(203, 202, 202);
+  color:#fff;
+  background-color: #666;
+}
+
+
